@@ -621,7 +621,7 @@ function initSync(module) {
 
 async function init(input) {
     if (typeof input === 'undefined') {
-        input = new URL('simple-counter-7f10036828cd8f04_bg.wasm', import.meta.url);
+        input = new URL('simple-counter-d02d1bddb1230977_bg.wasm', import.meta.url);
     }
     const imports = getImports();
 

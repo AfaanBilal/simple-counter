@@ -35,6 +35,7 @@ fn App() -> Html {
                 <div class="mb-6 pb-4 border-b border-b-slate-700">
                     <div class="text-slate-400 text-5xl mb-4">{ "A Simple Counter" }</div>
                     <div class="text-slate-400 text-xl">{ "Built with Rust, Yew and WASM" }</div>
+                    <div class="my-2"><a class="text-cyan-600" href="https://github.com/AfaanBilal/simple-counter" target="_blank" rel="noopener">{ "Source Code" }</a></div>
                 </div>
                 <button class="w-60 h-60 text-slate-300 bg-slate-700 hover:bg-slate-600 active:bg-slate-500 border border-slate-800 font-mono text-extrabold rounded-full text-6xl " onclick={increment}>{ *counter }</button>
                 <div class="my-8" />
